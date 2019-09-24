@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
   <link rel="stylesheet" href="vendors/flat-icon/font/flaticon.css">
   <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <link rel="stylesheet" href="./scss/style.css">
   <link rel="stylesheet" href="./scss/kapan.css">
@@ -127,7 +128,7 @@
                       <div class="list"> 
                           <div class="list-content"> 
                               <h5>Doing</h5> 
-                              <div class="card"> 
+                              <div class="card" data-aos='fade-right' data-aos-delay="500">  
                                   <div class="card-content"> 
                                       <div class="labels"> 
                                           <div class="label label-blue"></div> 
@@ -138,11 +139,13 @@
                                           </svg> 
                                       </div> 
                                       <div class="card-users"> 
-                                          <div class="user user-1"></div> 
+                                          <div class="user">
+                                              <img src='./img/user/avatar1.png' />
+                                          </div> 
                                       </div> 
                                   </div> 
                               </div> 
-                              <div class="card"> 
+                              <div class="card" data-aos='fade-right' data-aos-delay="600"> 
                                   <div class="card-content"> 
                                       <div class="labels"> 
                                           <div class="label label-red"></div> 
@@ -153,12 +156,16 @@
                                           </svg> 
                                       </div> 
                                       <div class="card-users"> 
-                                          <div class="user user-2"></div> 
-                                          <div class="user user-1"></div> 
+                                          <div class="user">
+                                              <img src='./img/user/avatar4.png' />
+                                          </div> 
+                                          <div class="user">
+                                              <img src='./img/user/avatar3.png' />
+                                          </div> 
                                       </div> 
                                   </div> 
                               </div> 
-                              <div class="card"> 
+                              <div class="card" data-aos='fade-right' data-aos-delay="700" > 
                                   <div class="card-content"> 
                                       <div class="labels"> 
                                           <div class="label label-purple"></div> 
@@ -169,7 +176,9 @@
                                           </svg> 
                                       </div> 
                                       <div class="card-users"> 
-                                          <div class="user user-3"></div> 
+                                          <div class="user">
+                                              <img src='./img/user/avatar2.png' />
+                                          </div> 
                                       </div> 
                                   </div> 
                               </div> 
@@ -181,7 +190,7 @@
                       <div class="list"> 
                           <div class="list-content"> 
                               <h5>Done</h5> 
-                              <div class="card"> 
+                              <div class="card" data-aos='fade-left' data-aos-delay="500"> 
                                   <div class="card-content"> 
                                       <div class="labels"> 
                                           <div class="label label-red"></div> 
@@ -192,11 +201,13 @@
                                           </svg> 
                                       </div> 
                                       <div class="card-users"> 
-                                          <div class="user user-1"></div> 
+                                          <div class="user">
+                                            <img src='./img/user/avatar1.png' />
+                                          </div> 
                                       </div> 
                                   </div> 
                               </div> 
-                              <div class="card"> 
+                              <div class="card" data-aos='fade-left' data-aos-delay="600"> 
                                   <div class="card-content"> 
                                       <div class="labels"> 
                                           <div class="label label-blue"></div> 
@@ -207,8 +218,12 @@
                                           </svg> 
                                       </div> 
                                       <div class="card-users"> 
-                                          <div class="user user-2"></div> 
-                                          <div class="user user-1"></div> 
+                                          <div class="user">
+                                              <img src='./img/user/avatar1.png' />
+                                          </div> 
+                                          <div class="user">
+                                              <img src='./img/user/avatar3.png' />
+                                          </div> 
                                       </div> 
                                   </div> 
                               </div> 
@@ -407,6 +422,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/mail-script.js"></script>
   <script src="js/skrollr.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
   <script src="js/main.js"></script>
 </body>
 </html>

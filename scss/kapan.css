@@ -99,10 +99,14 @@
     height: 28px;
     margin-left: 5px;
     width: 28px;
+    border-radius: 50%;
+    background-color: #A3E5D4;
 }
-.board .user.user-1 {
-    background-image: url(https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/pattern-library/images/87c2323…/user-1.png);
+
+.board .user img{
+    height: 28px;
 }
+
 .board .user {
     background-repeat: no-repeat;
     background-size: contain;

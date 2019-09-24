@@ -2653,7 +2653,8 @@ h3, .h3 {
 }
 .button.button-signup
 {
-  border-radius: 10px;
+  padding: 8px 18px;
+  border-radius: 10px 0px 10px 0px;
   font-weight: 500;
   font-size: 20px;
 }
